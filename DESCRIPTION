@@ -1,0 +1,12 @@
+Package: cellFilter
+Title: It Filters the Top Cells by Library Size
+Version: 0.0.0.9000
+Authors@R: 
+    person("Alice", "Baron", , "alice.baron@edu.unito.it", role = c("aut", "cre"))
+Description: Returns a csv matrix with only the top n cells and it could be runned inside a container.
+License: MIT + file LICENSE
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports: 
+    utils

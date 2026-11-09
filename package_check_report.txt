@@ -1,0 +1,94 @@
+══ Building ══════════════════════════════════════════════════════════════════════════════════════
+Setting env vars:
+• CFLAGS    : -Wall -pedantic
+• CXXFLAGS  : -Wall -pedantic
+• CXX11FLAGS: -Wall -pedantic
+• CXX14FLAGS: -Wall -pedantic
+• CXX17FLAGS: -Wall -pedantic
+• CXX20FLAGS: -Wall -pedantic
+── R CMD build ───────────────────────────────────────────────────────────────────────────────────
+      ✔  checking for file 'C:\Users\Acer\Documents\cellFilter/DESCRIPTION'
+      ─  preparing 'cellFilter':
+   checking DESCRIPTION meta-information ...     checking DESCRIPTION meta-information ...   ✔  checking DESCRIPTION meta-information
+      ─  checking for LF line-endings in source and make files and shell scripts
+  ─  checking for empty or unneeded directories
+      ─  building 'cellFilter_0.0.0.9000.tar.gz'
+     
+══ Checking ══════════════════════════════════════════════════════════════════════════════════════
+Setting env vars:
+• _R_CHECK_CRAN_INCOMING_REMOTE_               : FALSE
+• _R_CHECK_CRAN_INCOMING_                      : FALSE
+• _R_CHECK_FORCE_SUGGESTS_                     : FALSE
+• _R_CHECK_PACKAGES_USED_IGNORE_UNUSED_IMPORTS_: FALSE
+• NOT_CRAN                                     : true
+── R CMD check ───────────────────────────────────────────────────────────────────────────────────
+-    \  ─  using log directory 'C:/Users/Acer/AppData/Local/Temp/RtmpueA2WK/fileb2842cfae29/cellFilter.Rcheck'
+─  using R version 4.6.1 (2026-06-24 ucrt)
+─  using platform: x86_64-w64-mingw32
+─  R was compiled by
+|         gcc.exe (GCC) 14.3.0
+       GNU Fortran (GCC) 14.3.0
+─  running under: Windows 11 x64 (build 26200)
+─  using session charset: UTF-8
+─  current time: 2026-11-09 16:02:51 UTC
+/    -  ─  using options '--no-manual --as-cran'
+\  ✔  checking for file 'cellFilter/DESCRIPTION'
+─  this is package 'cellFilter' version '0.0.0.9000'
+─  package encoding: UTF-8
+✔  checking package namespace information
+   checking package dependencies ...|/-\|/-\     checking package dependencies ... |  ✔  checking package dependencies (1.5s)
+✔  checking if this is a source package
+   checking if there is a namespace .../  ✔  checking if there is a namespace
+-\    |     checking for executable files .../-     checking for executable files ... \  ✔  checking for executable files (455ms)
+   checking for hidden files and directories ...|  ✔  checking for hidden files and directories
+✔  checking for portable file names
+/  ✔  checking serialization versions
+   checking whether package 'cellFilter' can be installed ...-\|/-\|/-     checking whether package 'cellFilter' can be installed ... \  ✔  checking whether package 'cellFilter' can be installed (1.7s)
+   checking installed package size ...|/     checking installed package size ... -  ✔  checking installed package size
+\    |  ✔  checking package directory
+   checking for future file timestamps .../     checking for future file timestamps ... -  ✔  checking for future file timestamps
+   checking DESCRIPTION meta-information ...\|/     checking DESCRIPTION meta-information ... -  ✔  checking DESCRIPTION meta-information (412ms)
+N  checking top-level files
+   Non-standard file/directory found at top level:
+     'package_check_report.txt'
+\  ✔  checking for left-over files
+✔  checking index information
+   checking package subdirectories ...|/     checking package subdirectories ... -  ✔  checking package subdirectories (336ms)
+   checking code files for non-ASCII characters ...\     checking code files for non-ASCII characters ... |  ✔  checking code files for non-ASCII characters
+   checking R files for syntax errors .../     checking R files for syntax errors ... -  ✔  checking R files for syntax errors
+   checking whether the package can be loaded ...\|     checking whether the package can be loaded ... /  ✔  checking whether the package can be loaded
+   checking whether the package can be loaded with stated dependencies ...-     checking whether the package can be loaded with stated dependencies ... \  ✔  checking whether the package can be loaded with stated dependencies
+   checking whether the package can be unloaded cleanly ...|/     checking whether the package can be unloaded cleanly ... -  ✔  checking whether the package can be unloaded cleanly (345ms)
+   checking whether the namespace can be loaded with stated dependencies ...\     checking whether the namespace can be loaded with stated dependencies ... |  ✔  checking whether the namespace can be loaded with stated dependencies
+   checking whether the namespace can be unloaded cleanly .../-     checking whether the namespace can be unloaded cleanly ... \  ✔  checking whether the namespace can be unloaded cleanly (345ms)
+   checking loading without being on the library search path ...|/     checking loading without being on the library search path ... -  ✔  checking loading without being on the library search path
+\|    /     checking dependencies in R code ...-     checking dependencies in R code ... \  ✔  checking dependencies in R code (470ms)
+   checking S3 generic/method consistency ...|/     checking S3 generic/method consistency ... -  ✔  checking S3 generic/method consistency
+   checking replacement functions ...\|     checking replacement functions ... /  ✔  checking replacement functions
+   checking foreign function calls ...-\     checking foreign function calls ... |  ✔  checking foreign function calls
+   checking R code for possible problems .../-\|/-\|/-\|/-     checking R code for possible problems ... \  ✔  checking R code for possible problems (2.7s)
+   checking Rd files ...|/-     checking Rd files ... \  ✔  checking Rd files (480ms)
+   checking Rd metadata ...|     checking Rd metadata ... /  ✔  checking Rd metadata
+   checking Rd line widths ...-     checking Rd line widths ... \  ✔  checking Rd line widths
+   checking Rd cross-references ...|     checking Rd cross-references ... /  ✔  checking Rd cross-references
+   checking for missing documentation entries ...-\     checking for missing documentation entries ... |  ✔  checking for missing documentation entries
+   checking for code/documentation mismatches .../-\|     checking for code/documentation mismatches ... /  ✔  checking for code/documentation mismatches (706ms)
+   checking Rd \usage sections ...-\|     checking Rd \usage sections ... /  ✔  checking Rd \usage sections (466ms)
+   checking Rd contents ...-     checking Rd contents ... \  ✔  checking Rd contents
+   checking for unstated dependencies in examples ...|     checking for unstated dependencies in examples ... /  ✔  checking for unstated dependencies in examples
+-\|    /     checking examples ...-\|/     checking examples ... -  ✔  checking examples (1.2s)
+\  ✔  checking for non-standard things in the check directory
+✔  checking for detritus in the temp directory
+|     
+   See
+     'C:/Users/Acer/AppData/Local/Temp/RtmpueA2WK/fileb2842cfae29/cellFilter.Rcheck/00check.log'
+   for details.
+   
+/-\|/-\| ── R CMD check results ──────────────────────────────────────────────── cellFilter 0.0.0.9000 ────
+Duration: 15.9s
+
+❯ checking top-level files ... NOTE
+  Non-standard file/directory found at top level:
+    'package_check_report.txt'
+
+0 errors ✔ | 0 warnings ✔ | 1 note ✖
